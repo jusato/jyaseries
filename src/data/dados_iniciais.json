@@ -1,0 +1,128 @@
+{
+  "categorias": [
+    {
+      "titulo": "Assistindo",
+      "cor": "#fc3c94",
+      "link_extra": {
+        "text": ".",
+        "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit#heading=h.rwe5xl9f1xgh"
+      },
+      "videos": [
+        {
+          "titulo": "Coming This Week: Vis a Vis",
+          "url": "https://www.youtube.com/watch?v=zK5i7z2Pn-0"
+        },
+        {
+          "titulo": "Masterchef Brasil 7ª Temporada",
+          "url": "https://www.youtube.com/watch?v=Rp5ncg228ko"
+        },
+        {
+          "titulo": "Love on the Spectrum",
+          "url": "https://www.youtube.com/watch?v=k8PJq8GccJQ"
+        },
+        {
+          "titulo": "Snowpiercer",
+          "url": "https://www.youtube.com/watch?v=7lFMpmwn_hQ"
+        },
+        {
+          "titulo": "The L Word: Generation Q",
+          "url": "https://www.youtube.com/watch?v=sK-wthQD8Zc"
+        }     
+      ]
+    },
+    {
+      "titulo": "Dar +1 Chance",
+      "cor": "#fc3c94",
+      "link_extra": {
+        "text": ".",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "videos": [
+        {
+          "titulo": "House of Cards",
+          "url": "https://www.youtube.com/watch?v=2OdjW2WSfp8"
+        },
+        {
+          "titulo": "Westworld",
+          "url": "https://www.youtube.com/watch?v=HmRPq41j3wI"
+        }
+      ]
+    },
+    {
+      "titulo": "Esperando Próxima Temporada",
+      "cor": "#fc3c94",
+      "link_extra": {
+        "text": ".",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "Young Sheldon",
+          "url": "https://www.youtube.com/watch?v=6YMbyIQpO1w"
+        },
+        {
+          "titulo": "Superstore",
+          "url": "https://www.youtube.com/watch?v=NgZXnTZbF3g"
+        }
+      ]
+    },
+    {
+      "titulo": "Baixar",
+      "cor": "#fc3c94",
+      "link_extra": {
+        "text": ".",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "The Americans",
+          "url": "https://www.youtube.com/watch?v=3YF3XfP4bdY"
+        },
+        {
+          "titulo": "Bones",
+          "url": "https://www.youtube.com/watch?v=kVDb2Pw0gZQ"
+        }
+      ]
+    },
+    {
+      "titulo": "Finalizadas",
+      "cor": "#fc3c94",
+      "link_extra": {
+        "text": ".",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "The 100",
+          "url": "https://www.youtube.com/watch?v=N7vPkInx_Z8"
+        },
+        {
+          "titulo": "Game of Thrones",
+          "url": "https://www.youtube.com/watch?v=Vsxmk9M_3HM"
+        },
+        {
+          "titulo": "How to get away with murder",
+          "url": "https://www.youtube.com/watch?v=lOsfKzUuKKs"
+        }
+      ]
+    },
+    {
+      "titulo": "Melhores",
+      "cor": "#fc3c94",
+      "link_extra": {
+        "text": ".",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "The 100",
+          "url": "https://www.youtube.com/watch?v=Ulqm-7BXnCw"
+        },
+        {
+          "titulo": "The Big Bang Theory",
+          "url": "https://www.youtube.com/watch?v=zktKizT0Wcs"
+        }
+      ]
+    }
+  ]
+}
