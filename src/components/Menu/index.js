@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/Logo.png';
 import './Menu.css';
 import Button from "../Button";
@@ -7,18 +8,15 @@ import Button from "../Button";
 function Menu() {
     return (
         <nav className="Menu">
-            <a href="/">
-            <img className="Logo" src={Logo} alt="JuFlix logo" />
-            </a>
+            <Link to="/">
+            <img className="Logo" src={Logo} alt="jyaseries logo" />
+            </Link>
             
-            <Button as= "a" className="ButtonLink" href="/"> 
-                Nova Série 
+            <Button as={Link} className="ButtonLink" to="/cadastro/video">
+                Nova Série {/* prop especifica chamada children */}
             </Button>
         </nav>
     );
 }
 
 export default Menu;
-
-//as= "a" == o botão vai se comportar como "a" (link)
-//Nova Série == prop especifica chamada children
