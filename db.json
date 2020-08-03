@@ -1,0 +1,21 @@
+{
+    "categorias": [
+      {
+        "id": 1,
+        "titulo": "Assistindo",
+        "cor": "#fc3c94",
+        "link_extra": {
+          "text": ".",
+          "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
+        }
+      }
+     ],
+    "videos": [
+      {
+        "id": 1,
+        "categoriaId": 1,
+        "titulo": "Masterchef Brasil 7ª Temporada",
+        "url": "https://www.youtube.com/watch?v=Rp5ncg228ko"
+      }
+    ]
+  }
