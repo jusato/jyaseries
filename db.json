@@ -8,6 +8,51 @@
           "text": ".",
           "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
         }
+      },
+      {
+        "id": 2,
+        "titulo": "Dar +1 Chance",
+        "cor": "#fc3c94",
+        "link_extra": {
+          "text": ".",
+          "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
+        }
+      },
+      {
+        "id": 3,
+        "titulo": "Esperando Próxima Temporada",
+        "cor": "#fc3c94",
+        "link_extra": {
+          "text": ".",
+          "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
+        }
+      },
+      {
+        "id": 4,
+        "titulo": "Baixar",
+        "cor": "#fc3c94",
+        "link_extra": {
+          "text": ".",
+          "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
+        }
+      },
+      {
+        "id": 5,
+        "titulo": "Finalizadas",
+        "cor": "#fc3c94",
+        "link_extra": {
+          "text": ".",
+          "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
+        }
+      },
+      {
+        "id": 6,
+        "titulo": "Melhores",
+        "cor": "#fc3c94",
+        "link_extra": {
+          "text": ".",
+          "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
+        }
       }
      ],
     "videos": [
@@ -16,6 +61,90 @@
         "categoriaId": 1,
         "titulo": "Masterchef Brasil 7ª Temporada",
         "url": "https://www.youtube.com/watch?v=Rp5ncg228ko"
+      },
+      {
+        "id": 2,
+        "categoriaId": 1,
+        "titulo": "Love on the Spectrum",
+        "url": "https://www.youtube.com/watch?v=k8PJq8GccJQ"
+      },
+      {
+        "id": 3,
+        "categoriaId": 1,
+        "titulo": "Snowpiercer",
+        "url": "https://www.youtube.com/watch?v=7lFMpmwn_hQ"
+      },
+      {
+        "id": 4,
+        "categoriaId": 1,
+        "titulo": "The L Word: Generation Q",
+        "url": "https://www.youtube.com/watch?v=sK-wthQD8Zc"
+      },
+      {
+        "id": 5,
+        "categoriaId": 2,
+        "titulo": "House of Cards",
+        "url": "https://www.youtube.com/watch?v=2OdjW2WSfp8"
+      },
+      {
+        "id": 6,
+        "categoriaId": 2,
+        "titulo": "Westworld",
+        "url": "https://www.youtube.com/watch?v=HmRPq41j3wI"
+      },
+      {
+        "id": 7,
+        "categoriaId": 3,
+        "titulo": "Young Sheldon",
+        "url": "https://www.youtube.com/watch?v=6YMbyIQpO1w"
+      },
+      {
+        "id": 8,
+        "categoriaId": 3,
+        "titulo": "Superstore",
+        "url": "https://www.youtube.com/watch?v=NgZXnTZbF3g"
+      },
+      {
+        "id": 9,
+        "categoriaId": 4,
+        "titulo": "The Americans",
+        "url": "https://www.youtube.com/watch?v=3YF3XfP4bdY"
+      },
+      {
+        "id": 10,
+        "categoriaId": 4,
+        "titulo": "Bones",
+        "url": "https://www.youtube.com/watch?v=kVDb2Pw0gZQ"
+      },
+      {
+        "id": 11,
+        "categoriaId": 5,
+        "titulo": "The 100",
+        "url": "https://www.youtube.com/watch?v=N7vPkInx_Z8"
+      },
+      {
+        "id": 12,
+        "categoriaId": 5,
+        "titulo": "Game of Thrones",
+        "url": "https://www.youtube.com/watch?v=Vsxmk9M_3HM"
+      },
+      {
+        "id": 13,
+        "categoriaId": 5,
+        "titulo": "How to get away with murder",
+        "url": "https://www.youtube.com/watch?v=lOsfKzUuKKs"
+      },
+      {
+        "id": 14,
+        "categoriaId": 6,
+        "titulo": "The 100",
+        "url": "https://www.youtube.com/watch?v=Ulqm-7BXnCw"
+      },
+      {
+        "id": 15,
+        "categoriaId": 6,
+        "titulo": "The Big Bang Theory",
+        "url": "https://www.youtube.com/watch?v=zktKizT0Wcs"
       }
     ]
   }
