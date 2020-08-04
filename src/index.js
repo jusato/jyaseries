@@ -9,6 +9,8 @@ import Home from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 
+import EditarCategoria from './pages/editar/Categoria';
+
 const Pagina404 = () => (<div>Página 404</div>);
 
 ReactDOM.render(
@@ -17,6 +19,7 @@ ReactDOM.render(
       <Route path="/" component={Home} exact /> {/* Como tem "exact" depois, só vai pra home se path for exatamente "/" */}
       <Route path="/cadastro/video" component={CadastroVideo} /> {/* Se essa linha estivesse depois da linha <Route path="/" component={App} /> (sem "exact"), quando a gente colocasse esse path "/cadastro/video" na url, ia aparecer a home */}
       <Route path="/cadastro/categoria" component={CadastroCategoria} />
+      <Route path="/editar/categoria/:id" component={EditarCategoria} />
       <Route component={Pagina404} /> {/* Se vc apagar o path, o que tiver no final aqui (esse componente dessa linha no caso) vai ser o que vai ser carregado independente de qualquer coisa */}
 
     </Switch>

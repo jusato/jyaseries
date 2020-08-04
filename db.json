@@ -44,15 +44,6 @@
         "text": ".",
         "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
       }
-    },
-    {
-      "id": 6,
-      "titulo": "Melhores",
-      "cor": "#fc3c94",
-      "link_extra": {
-        "text": ".",
-        "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
-      }
     }
   ],
   "videos": [
@@ -133,18 +124,6 @@
       "categoriaId": 5,
       "titulo": "How to get away with murder",
       "url": "https://www.youtube.com/watch?v=lOsfKzUuKKs"
-    },
-    {
-      "id": 14,
-      "categoriaId": 6,
-      "titulo": "The 100",
-      "url": "https://www.youtube.com/watch?v=Ulqm-7BXnCw"
-    },
-    {
-      "id": 15,
-      "categoriaId": 6,
-      "titulo": "The Big Bang Theory",
-      "url": "https://www.youtube.com/watch?v=zktKizT0Wcs"
     },
     {
       "titulo": "Video padrão",

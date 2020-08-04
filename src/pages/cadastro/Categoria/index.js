@@ -1,14 +1,24 @@
 /* eslint-disable max-len */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// eslint-disable-next-line no-unused-vars
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 
+import ButtonArea from '../../../components/FormField/ButtonArea';
+import {
+  Table, Header, Column, Row, Body, Action,
+} from '../../../components/Table';
+import categoryRepository from '../../../repositorios/categorias';
+import Form from '../../../components/Form';
+import Container from '../../../components/Container';
+
 function CadastroCategoria() {
+  const history = useHistory();
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
@@ -18,15 +28,19 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    const URL_TOP = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://jyaseries.herokuapp.com/categorias';
-    fetch(URL_TOP)
-      .then(async (respostaDoServidor) => {
-        const resposta = await respostaDoServidor.json();
-        setCategorias([
-          ...resposta,
-        ]);
+    // const URL_TOP = window.location.hostname.includes('localhost')
+    //   ? 'http://localhost:8080/categorias'
+    //   : 'https://jyaseries.herokuapp.com/categorias';
+    // fetch(URL_TOP)
+    //   .then(async (respostaDoServidor) => {
+    //     const resposta = await respostaDoServidor.json();
+    //     setCategorias([
+    //       ...resposta,
+    //     ]);
+    //   });
+    categoryRepository.getAll()
+      .then((categorias) => {
+        setCategorias([...categorias]);
       });
 
     // setTimeout(() => {
@@ -48,94 +62,121 @@ function CadastroCategoria() {
     // }, 4 * 1000);
   }, []);
 
+  function handleSubmit(infosDoEvento) {
+    infosDoEvento.preventDefault();
+    categoryRepository.create({
+      titulo: values.titulo,
+      link: values.link,
+      cor: values.cor,
+      link_extra: {
+        text: values.descricao,
+        url: values.link,
+      },
+    }).then(() => {
+      setCategorias([...categorias, categorias]);
+      history.push('/cadastro/categoria');
+    });
+
+    clearForm(); // limpar forms toda vez que cadastra
+
+    history.push('/');
+  }
+  function removeCategory(id) {
+    alert('Deseja mesmo remover a categoria?');
+    categoryRepository.destroy(id);
+
+    setCategorias(categorias.filter((categoria) => categoria.id !== id));
+  }
+
   return (
     <PageDefault>
-      <h1>
-        Cadastro de Categoria:
-        {values.nome}
-      </h1>
+      <Container>
+        <Form onSubmit={handleSubmit}>
+          <h1>Cadastrar Categoria</h1>
 
-      <form onSubmit={function handleSubmit(infosDoEvento) {
-        infosDoEvento.preventDefault();
-        setCategorias([
-          // eslint-disable-next-line max-len
-          ...categorias, // "..." == pega tudo que ja escreveu, não joga fora, não sobrescreve e cria esse novo aqui
-          values,
-        ]);
+          <FormField
+            label="Título da Categoria"
+            type="text"
+            name="titulo"
+            value={values.titulo}
+            onChange={handleChange}
+          />
+          <FormField
+            label="Link da Categoria"
+            type="text"
+            name="link"
+            value={values.link}
+            onChange={handleChange}
+          />
+          <FormField
+            label="Cor"
+            type="color"
+            name="cor"
+            value={values.cor}
+            onChange={handleChange}
+          />
+          <FormField
+            label="Descrição da Categoria"
+            type="textarea"
+            name="descricao"
+            value={values.descricao}
+            onChange={handleChange}
+          />
+          <ButtonArea>
+            <Button type="submit">Salvar</Button>
+            <Button type="button" secondary>Limpar</Button>
+          </ButtonArea>
+        </Form>
 
-        clearForm(); // limpar forms toda vez que cadastra
-      }}
-      >
+        {categorias.length === 0 && (
+          <div>
+            Loading...
+          </div>
+        )}
 
-        <FormField
-          label="Nome da Categoria"
-          name="nome"
-          value={values.nome}
-          onChange={handleChange}
-        />
+        <Table>
+          <Header>
+            <Row>
+              <Column>Titulo</Column>
+              <Column>Descrição</Column>
+              <Column>Editar</Column>
+              <Column>Remover</Column>
+            </Row>
+          </Header>
+          <Body>
+            {categorias.map((item) => (
+              <Row key={item.id}>
+                <Column style={{ width: '30%' }}>{item.titulo}</Column>
+                {
+                      item.link_extra
+                        ? <Column>{item.link_extra.text}</Column>
+                        : <Column />
+                  }
+                <Column style={{ width: '130px' }}>
 
-        <FormField
-          label="Descrição"
-          type="textarea"
-          name="descricao"
-          value={values.descricao}
-          onChange={handleChange}
-        />
-        {/* <div>  O de cima faz isso comentado, é pq se fizesse esse comentado no componente FormField, ele não conseguiria acessar algumas coisas
-          <label>
-            Descrição:
-            <textarea
-              type="text"
-              value={values.descricao}
-              name="descricao"
-              onChange={handleChange}
-            />
-          </label>
-        </div> */}
+                  <Link to={`/editar/categoria/${item.id}`}>
+                    <Action>
+                      Editar
+                    </Action>
+                  </Link>
 
-        <FormField
-          label="Cor"
-          type="color"
-          name="cor"
-          value={values.cor}
-          onChange={handleChange}
-        />
-        {/* <div>
-          <label>
-            Cor:
-            <input
-              type="color"
-              value={values.cor}
-              name="cor"
-              onChange={handleChange}
-            />
-          </label>
-        </div> */}
+                </Column>
+                <Column style={{ width: '130px' }}>
+                  <Action onClick={() => removeCategory(item.id)}>
+                    Remover
+                  </Action>
 
-        <Button>
-          Cadastrar
-        </Button>
-      </form>
+                </Column>
+              </Row>
+            ))}
+          </Body>
+        </Table>
 
-      {categorias.length === 0 && (
-        <div>
-          Loading...
-        </div>
-      )}
-
-      <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.titulo}`}>
-            {categoria.titulo}
-            {' '}
-            {/* o react não sabe lidar com um objeto inteiro, ai tem que escolher uma das coisas do objeto pra mostrar na tela, vou escolher nome (que ta vindo do "values" da linha 61 */}
-          </li>
-        ))}
-      </ul>
-
-      <Link to="/">
-        Ir para home
-      </Link>
+        <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
+          {/* <ArrowLeft color="#FFFFFF" size={24} /> */}
+          <span style={{ marginLeft: '4px' }}>Voltar para a home</span>
+        </Link>
+      </Container>
     </PageDefault>
   );
 }

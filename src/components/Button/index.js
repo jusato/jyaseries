@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Button = styled.button`
 color: var(--primary);
@@ -13,12 +13,18 @@ font-size: 16px;
 outline: none;
 border-radius: 5px;
 text-decoration: none;
+text-align: center;
 display: inline-block;
 transition: opacity .3s;
 &:hover,
 &:focus {
 opacity: .5;
 }
+
+@media(max-width: 800px){
+        margin: 8px 0;
+        width: 100%;
+    }
 `;
 
 export default Button;
