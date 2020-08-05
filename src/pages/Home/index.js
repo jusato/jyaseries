@@ -29,13 +29,13 @@ function Home() {
         if (indice === 0) {
           return (
             <div key={categoria.id}>
-              <BannerMain
+              {/* <BannerMain
                 videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
                 videoDescription={dadosIniciais[0].videos[0].description}
-              />
+              /> */}
               <Carousel
-                ignoreFirstVideo
+                // ignoreFirstVideo
                 category={dadosIniciais[0]}
               />
             </div>
