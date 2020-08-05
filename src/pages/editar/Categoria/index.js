@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable no-alert */
 import React, { useState, useEffect } from 'react';
 
 import { Link, useHistory } from 'react-router-dom';
@@ -27,9 +29,11 @@ function EditarCategoria(route) {
     categoryRepository.getCategory(id)
       .then((categoria) => {
         setTitulo(categoria.titulo || '');
-        setLink(categoria.link || '');
         setCor(categoria.cor || '');
-
+        // eslint-disable-next-line no-unused-expressions
+        categoria.link_extra
+          ? setLink(categoria.link_extra.url)
+          : setLink('');
         // eslint-disable-next-line no-unused-expressions
         categoria.link_extra
           ? setDescricao(categoria.link_extra.text)

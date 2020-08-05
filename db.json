@@ -44,92 +44,149 @@
         "text": ".",
         "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
       }
+    },
+    {
+      "titulo": "Melhores",
+      "cor": "#ff0059",
+      "link_extra": {
+        "text": "."
+      },
+      "id": 6
     }
   ],
   "videos": [
     {
       "id": 1,
       "categoriaId": 1,
+      "categoriaNome": "Assistindo",
       "titulo": "Masterchef Brasil 7ª Temporada",
       "url": "https://www.youtube.com/watch?v=Rp5ncg228ko"
     },
     {
-      "id": 2,
-      "categoriaId": 1,
       "titulo": "Love on the Spectrum",
-      "url": "https://www.youtube.com/watch?v=k8PJq8GccJQ"
+      "url": "https://www.youtube.com/watch?v=k8PJq8GccJQ",
+      "categoriaNome": "Finalizadas",
+      "categoriaId": 5,
+      "id": 2
     },
     {
-      "id": 3,
-      "categoriaId": 1,
       "titulo": "Snowpiercer",
-      "url": "https://www.youtube.com/watch?v=7lFMpmwn_hQ"
+      "url": "https://www.youtube.com/watch?v=7lFMpmwn_hQ",
+      "categoriaNome": "Esperando Próxima Temporada",
+      "categoriaId": 3,
+      "id": 3
     },
     {
       "id": 4,
       "categoriaId": 1,
+      "categoriaNome": "Assistindo",
       "titulo": "The L Word: Generation Q",
       "url": "https://www.youtube.com/watch?v=sK-wthQD8Zc"
     },
     {
       "id": 5,
       "categoriaId": 2,
+      "categoriaNome": "Dar +1 Chance",
       "titulo": "House of Cards",
       "url": "https://www.youtube.com/watch?v=2OdjW2WSfp8"
     },
     {
       "id": 6,
       "categoriaId": 2,
+      "categoriaNome": "Dar +1 Chance",
       "titulo": "Westworld",
       "url": "https://www.youtube.com/watch?v=HmRPq41j3wI"
     },
     {
       "id": 7,
       "categoriaId": 3,
+      "categoriaNome": "Esperando Próxima Temporada",
       "titulo": "Young Sheldon",
       "url": "https://www.youtube.com/watch?v=6YMbyIQpO1w"
     },
     {
       "id": 8,
       "categoriaId": 3,
+      "categoriaNome": "Esperando Próxima Temporada",
       "titulo": "Superstore",
       "url": "https://www.youtube.com/watch?v=NgZXnTZbF3g"
     },
     {
       "id": 9,
       "categoriaId": 4,
+      "categoriaNome": "Baixar",
       "titulo": "The Americans",
       "url": "https://www.youtube.com/watch?v=3YF3XfP4bdY"
     },
     {
       "id": 10,
       "categoriaId": 4,
+      "categoriaNome": "Baixar",
       "titulo": "Bones",
       "url": "https://www.youtube.com/watch?v=kVDb2Pw0gZQ"
     },
     {
       "id": 11,
       "categoriaId": 5,
+      "categoriaNome": "Finalizadas",
       "titulo": "The 100",
       "url": "https://www.youtube.com/watch?v=N7vPkInx_Z8"
     },
     {
       "id": 12,
       "categoriaId": 5,
+      "categoriaNome": "Finalizadas",
       "titulo": "Game of Thrones",
       "url": "https://www.youtube.com/watch?v=Vsxmk9M_3HM"
     },
     {
       "id": 13,
       "categoriaId": 5,
+      "categoriaNome": "Finalizadas",
       "titulo": "How to get away with murder",
       "url": "https://www.youtube.com/watch?v=lOsfKzUuKKs"
     },
     {
-      "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=zK5i7z2Pn-0",
+      "titulo": "The Mentalist",
+      "url": "https://www.youtube.com/watch?v=YyAGm6tcdqk",
+      "categoriaNome": "Assistindo",
       "categoriaId": 1,
-      "id": 16
+      "id": 17
+    },
+    {
+      "titulo": "Vis a Vis",
+      "url": "https://www.youtube.com/watch?v=zK5i7z2Pn-0",
+      "categoriaNome": "Assistindo",
+      "categoriaId": 1,
+      "id": 19
+    },
+    {
+      "titulo": "Psych",
+      "url": "https://www.youtube.com/watch?v=cml8ZGoX7V8",
+      "categoriaNome": "Dar +1 Chance",
+      "categoriaId": 2,
+      "id": 20
+    },
+    {
+      "titulo": "Terrace House: Aloha State",
+      "url": "https://www.youtube.com/watch?v=ZcOBKyu460g",
+      "categoriaNome": "Assistindo",
+      "categoriaId": 1,
+      "id": 21
+    },
+    {
+      "titulo": "The 100",
+      "url": "https://www.youtube.com/watch?v=Ulqm-7BXnCw",
+      "categoriaNome": "Melhores",
+      "categoriaId": 6,
+      "id": 22
+    },
+    {
+      "titulo": "The Big Bang Theory",
+      "url": "https://www.youtube.com/watch?v=zktKizT0Wcs",
+      "categoriaNome": "Melhores",
+      "categoriaId": 6,
+      "id": 23
     }
   ]
 }
