@@ -138,7 +138,7 @@ function CadastroSerie() {
           </Body>
         </Table>
 
-        <Link to="/cadastro/categoria">Cadastrar Categoria</Link>
+        <Link to="/">.</Link>
       </Container>
     </PageDefault>
   );

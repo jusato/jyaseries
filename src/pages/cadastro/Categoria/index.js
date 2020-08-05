@@ -174,7 +174,7 @@ function CadastroCategoria() {
         </Table>
         <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
           {/* <ArrowLeft color="#FFFFFF" size={24} /> */}
-          <span style={{ marginLeft: '4px' }}>Voltar para a home</span>
+          <span style={{ marginLeft: '4px' }}>.</span>
         </Link>
       </Container>
     </PageDefault>
