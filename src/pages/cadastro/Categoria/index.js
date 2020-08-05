@@ -14,6 +14,7 @@ import {
 import categoryRepository from '../../../repositorios/categorias';
 import Form from '../../../components/Form';
 import Container from '../../../components/Container';
+import Spinner from '../../../components/Spinner';
 
 function CadastroCategoria() {
   const history = useHistory();
@@ -129,8 +130,8 @@ function CadastroCategoria() {
         </Form>
 
         {categorias.length === 0 && (
-          <div>
-            Loading...
+          <div style={{ background: 'black' }}>
+            <Spinner>Loading...</Spinner>
           </div>
         )}
 
@@ -171,7 +172,6 @@ function CadastroCategoria() {
             ))}
           </Body>
         </Table>
-
         <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
           {/* <ArrowLeft color="#FFFFFF" size={24} /> */}
           <span style={{ marginLeft: '4px' }}>Voltar para a home</span>

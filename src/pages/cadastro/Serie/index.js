@@ -14,6 +14,7 @@ import categoriasRepository from '../../../repositorios/categorias';
 
 import ButtonArea from '../../../components/FormField/ButtonArea';
 import Form from '../../../components/Form';
+import Spinner from '../../../components/Spinner';
 
 import {
   Table, Header, Column, Row, Body, Action,
@@ -98,8 +99,8 @@ function CadastroSerie() {
           </ButtonArea>
         </Form>
         {series.length === 0 && (
-          <div>
-            Loading...
+          <div style={{ background: 'black' }}>
+            <Spinner>Loading...</Spinner>
           </div>
         )}
 
