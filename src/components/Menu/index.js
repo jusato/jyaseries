@@ -25,9 +25,9 @@ function Menu() {
   if (window.location.href.includes('/serie')) {
     buttonRoute = '/cadastro/categoria';
     buttonText = 'Nova Categoria';
-  } else if (window.location.href.includes('/categoria')) {
-    buttonRoute = '/';
-    buttonText = 'Página Inicial';
+  // } else if (window.location.href.includes('/categoria')) {
+  //   buttonRoute = '/';
+  //   buttonText = 'Página Inicial';
   } else {
     buttonRoute = '/cadastro/serie';
     buttonText = 'Nova Série';

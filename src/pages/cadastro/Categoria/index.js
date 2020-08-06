@@ -126,8 +126,8 @@ function CadastroCategoria() {
             onChange={handleChange}
           />
           <ButtonArea>
-            <Button type="submit">Salvar</Button>
-            <Button type="button" secondary>Limpar</Button>
+            <Button type="submit" secondary>Salvar</Button>
+            <Button type="button" onClick={clearForm} secondary>Limpar</Button>
           </ButtonArea>
         </Form>
 

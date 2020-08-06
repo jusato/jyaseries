@@ -2,19 +2,14 @@
 /* eslint-disable no-console */
 /* eslint-disable no-alert */
 import React, { useState, useEffect } from 'react';
-
 import { Link, useHistory } from 'react-router-dom';
-
+import { ArrowLeft } from 'react-feather';
 import PageDefault from '../../../components/PageDefault';
-
 import useForm from '../../../hooks/useForm';
-
 import Form from '../../../components/Form';
 import FormField from '../../../components/FormField';
 import ButtonArea from '../../../components/FormField/ButtonArea';
-
 import Button from '../../../components/Button';
-
 import seriesRepository from '../../../repositorios/series';
 import categoriasRepository from '../../../repositorios/categorias';
 
@@ -103,14 +98,14 @@ function EditarSerie(route) {
           suggestions={categoryTitles}
         />
         <ButtonArea>
-          <Button type="submit">Salvar</Button>
+          <Button type="submit" secondary>Salvar</Button>
           <Button type="button" secondary>Limpar</Button>
         </ButtonArea>
       </Form>
 
-      <Link to="/cadastro/serie" style={{ display: 'flex', alignItems: 'center' }}>
-        {/* <ArrowLeft color="#FFFFFF" size={24} /> */}
-        <span style={{ marginLeft: '4px' }}>Voltar para cadastro</span>
+      <Link to="/cadastro/serie" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+        <ArrowLeft color="#FFFFFF" size={24} />
+        <span style={{ marginLeft: '4px' }}>Voltar</span>
       </Link>
     </PageDefault>
   );

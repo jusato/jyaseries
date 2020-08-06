@@ -94,8 +94,8 @@ function CadastroSerie() {
             suggestions={categoryTitles}
           />
           <ButtonArea>
-            <Button type="submit">Salvar</Button>
-            <Button type="reset" secondary>Limpar</Button>
+            <Button type="submit" secondary>Salvar</Button>
+            <Button type="reset" onClick={clearForm} secondary>Limpar</Button>
           </ButtonArea>
         </Form>
         {series.length === 0 && (
