@@ -5,6 +5,7 @@ export const ContentAreaContainer = styled.section`
   margin-right: 5%;
   height: 100%;
   display: flex;
+  /* color: #fc3c94; */
   align-items: center;
   justify-content: center;
   position: relative;
@@ -91,7 +92,8 @@ export const BannerMainContainer = styled.section`
   &:before {
     top: 0;
     height: 100%;
-    background: rgba(0,0,0,0.5);
+    /* background: rgba(0,0,0,0.5); */
+    background: #ffc3c93f;
   }
 
   &:after {
@@ -113,9 +115,9 @@ export const WatchButton = styled.button`
   text-decoration: none;
   display: inline-block;
   border: 1px solid transparent;
-  color: var(--black);
-  background: var(--white);
-  border-color: var(--black);
+  color: var(--white);
+  background: var(--primary);
+  border-color: var(--primary);
   transition: opacity .3s;
   display: none;
   margin: 0 auto;

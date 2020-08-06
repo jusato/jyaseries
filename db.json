@@ -168,8 +168,8 @@
       "id": 17
     },
     {
-      "titulo": "Vis a Vis",
-      "url": "https://www.youtube.com/watch?v=zK5i7z2Pn-0",
+      "titulo": "Meu amorzinho",
+      "url": "https://youtu.be/zgDST_t7nGA",
       "categoriaNome": "Assistindo",
       "categoriaId": 1,
       "id": 19
@@ -229,6 +229,13 @@
       "categoriaNome": "日本語",
       "categoriaId": 8,
       "id": 27
+    },
+    {
+      "titulo": "Vis a Vis",
+      "url": "https://www.youtube.com/watch?v=zK5i7z2Pn-0",
+      "categoriaNome": "Assistindo",
+      "categoriaId": 1,
+      "id": 28
     }
   ]
 }
