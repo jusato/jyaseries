@@ -5,43 +5,70 @@
       "titulo": "Assistindo",
       "cor": "#fc3c94",
       "link_extra": {
-        "text": ".",
+        "text": "",
         "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
       }
     },
     {
       "id": 2,
-      "titulo": "Dar +1 Chance",
+      "titulo": "Assistindo com Bi",
       "cor": "#fc3c94",
       "link_extra": {
-        "text": ".",
+        "text": "",
         "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
       }
     },
     {
       "id": 3,
-      "titulo": "Esperando Próxima Temporada",
+      "titulo": "Próximas",
       "cor": "#fc3c94",
       "link_extra": {
-        "text": ".",
+        "text": "",
         "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
       }
     },
     {
       "id": 4,
-      "titulo": "Baixar",
+      "titulo": "Dar +1 Chance",
       "cor": "#fc3c94",
       "link_extra": {
-        "text": ".",
+        "text": "",
         "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
       }
     },
     {
       "id": 5,
-      "titulo": "Finalizadas",
+      "titulo": "Esperando Próxima Temporada",
       "cor": "#fc3c94",
       "link_extra": {
-        "text": ".",
+        "text": "",
+        "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Baixar",
+      "cor": "#fc3c94",
+      "link_extra": {
+        "text": "",
+        "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Español",
+      "cor": "#fc3c94",
+      "link_extra": {
+        "text": "",
+        "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "日本語",
+      "cor": "#fc3c94",
+      "link_extra": {
+        "text": "",
         "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
       }
     },
@@ -49,23 +76,24 @@
       "titulo": "Melhores",
       "cor": "#ff0059",
       "link_extra": {
-        "text": "."
+        "text": "",
+        "url": "https://docs.google.com/document/d/1cfulkBqFoykCwu4QIqk8XbCoWUdSnBt3sbFz01C9KbQ/edit"
       },
-      "id": 6
+      "id": 9
     }
   ],
   "videos": [
     {
       "id": 1,
-      "categoriaId": 1,
-      "categoriaNome": "Assistindo",
-      "titulo": "Masterchef Brasil 7ª Temporada",
+      "categoriaId": 2,
+      "categoriaNome": "Assistindo com Bi",
+      "titulo": "Masterchef Brasil",
       "url": "https://www.youtube.com/watch?v=Rp5ncg228ko"
     },
     {
       "titulo": "Love on the Spectrum",
       "url": "https://www.youtube.com/watch?v=k8PJq8GccJQ",
-      "categoriaNome": "Finalizadas",
+      "categoriaNome": "Esperando Próxima Temporada",
       "categoriaId": 5,
       "id": 2
     },
@@ -73,84 +101,70 @@
       "titulo": "Snowpiercer",
       "url": "https://www.youtube.com/watch?v=7lFMpmwn_hQ",
       "categoriaNome": "Esperando Próxima Temporada",
-      "categoriaId": 3,
+      "categoriaId": 5,
       "id": 3
     },
     {
       "id": 4,
-      "categoriaId": 1,
-      "categoriaNome": "Assistindo",
+      "categoriaId": 3,
+      "categoriaNome": "Próximas",
       "titulo": "The L Word: Generation Q",
       "url": "https://www.youtube.com/watch?v=sK-wthQD8Zc"
     },
     {
       "id": 5,
-      "categoriaId": 2,
+      "categoriaId": 4,
       "categoriaNome": "Dar +1 Chance",
       "titulo": "House of Cards",
       "url": "https://www.youtube.com/watch?v=2OdjW2WSfp8"
     },
     {
       "id": 6,
-      "categoriaId": 2,
+      "categoriaId": 4,
       "categoriaNome": "Dar +1 Chance",
       "titulo": "Westworld",
       "url": "https://www.youtube.com/watch?v=HmRPq41j3wI"
     },
     {
       "id": 7,
-      "categoriaId": 3,
+      "categoriaId": 5,
       "categoriaNome": "Esperando Próxima Temporada",
       "titulo": "Young Sheldon",
       "url": "https://www.youtube.com/watch?v=6YMbyIQpO1w"
     },
     {
       "id": 8,
-      "categoriaId": 3,
+      "categoriaId": 5,
       "categoriaNome": "Esperando Próxima Temporada",
       "titulo": "Superstore",
       "url": "https://www.youtube.com/watch?v=NgZXnTZbF3g"
     },
     {
       "id": 9,
-      "categoriaId": 4,
+      "categoriaId": 6,
       "categoriaNome": "Baixar",
       "titulo": "The Americans",
       "url": "https://www.youtube.com/watch?v=3YF3XfP4bdY"
     },
     {
       "id": 10,
-      "categoriaId": 4,
+      "categoriaId": 6,
       "categoriaNome": "Baixar",
       "titulo": "Bones",
       "url": "https://www.youtube.com/watch?v=kVDb2Pw0gZQ"
     },
     {
-      "id": 11,
-      "categoriaId": 5,
-      "categoriaNome": "Finalizadas",
-      "titulo": "The 100",
-      "url": "https://www.youtube.com/watch?v=N7vPkInx_Z8"
-    },
-    {
-      "id": 12,
-      "categoriaId": 5,
-      "categoriaNome": "Finalizadas",
-      "titulo": "Game of Thrones",
-      "url": "https://www.youtube.com/watch?v=Vsxmk9M_3HM"
-    },
-    {
       "id": 13,
-      "categoriaId": 5,
-      "categoriaNome": "Finalizadas",
+      "categoriaId": 9,
+      "categoriaNome": "Melhores",
       "titulo": "How to get away with murder",
       "url": "https://www.youtube.com/watch?v=lOsfKzUuKKs"
     },
     {
       "titulo": "The Mentalist",
       "url": "https://www.youtube.com/watch?v=YyAGm6tcdqk",
-      "categoriaNome": "Assistindo",
-      "categoriaId": 1,
+      "categoriaNome": "Melhores",
+      "categoriaId": 9,
       "id": 17
     },
     {
@@ -163,8 +177,8 @@
     {
       "titulo": "Psych",
       "url": "https://www.youtube.com/watch?v=cml8ZGoX7V8",
-      "categoriaNome": "Dar +1 Chance",
-      "categoriaId": 2,
+      "categoriaNome": "Próximas",
+      "categoriaId": 3,
       "id": 20
     },
     {
@@ -178,15 +192,43 @@
       "titulo": "The 100",
       "url": "https://www.youtube.com/watch?v=Ulqm-7BXnCw",
       "categoriaNome": "Melhores",
-      "categoriaId": 6,
+      "categoriaId": 9,
       "id": 22
     },
     {
       "titulo": "The Big Bang Theory",
       "url": "https://www.youtube.com/watch?v=zktKizT0Wcs",
       "categoriaNome": "Melhores",
-      "categoriaId": 6,
+      "categoriaId": 9,
       "id": 23
+    },
+    {
+      "titulo": "De Férias com o Ex (Temporada 6)",
+      "url": "https://www.youtube.com/watch?v=n_fGblHJUTE",
+      "categoriaNome": "Assistindo com Bi",
+      "categoriaId": 2,
+      "id": 24
+    },
+    {
+      "titulo": "The Mentalist",
+      "url": "https://www.youtube.com/watch?v=YyAGm6tcdqk",
+      "categoriaNome": "Assistindo",
+      "categoriaId": 1,
+      "id": 25
+    },
+    {
+      "titulo": "Las Chicas Del Cable",
+      "url": "https://www.youtube.com/watch?v=i4vmDXUmPSg",
+      "categoriaNome": "Español",
+      "categoriaId": 7,
+      "id": 26
+    },
+    {
+      "titulo": "Terrace House: Tokyo",
+      "url": "https://www.youtube.com/watch?v=JRuKrxjvXyA",
+      "categoriaNome": "日本語",
+      "categoriaId": 8,
+      "id": 27
     }
   ]
 }
