@@ -108,7 +108,7 @@ function EditarSerie(route) {
       </Form>
 
       <Link to="/cadastro/serie" style={{ display: 'flex', alignItems: 'center' }}>
-        {/* <ArrowLeft color="#FFFFFF" size={24} /> */} 
+        {/* <ArrowLeft color="#FFFFFF" size={24} /> */}
         <span style={{ marginLeft: '4px' }}>Voltar para cadastro</span>
       </Link>
     </PageDefault>
