@@ -39,6 +39,7 @@ function EditarCategoria(route) {
           ? setDescricao(categoria.link_extra.text)
           : setDescricao('');
       });
+    // eslint-disable-next-line
   }, []);
 
   const { clearForm } = useForm(); // Custom Hook
@@ -56,6 +57,7 @@ function EditarCategoria(route) {
       },
     }).then(() => {
       alert('Category Updated!!!');
+    // eslint-disable-next-line no-shadow
     }).catch((e) => {
       console.log(e);
     });

@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 /* eslint-disable max-len */
 import React, { useState, useEffect } from 'react';
 // eslint-disable-next-line no-unused-vars
@@ -40,6 +41,7 @@ function CadastroCategoria() {
     //     ]);
     //   });
     categoryRepository.getAll()
+      // eslint-disable-next-line no-shadow
       .then((categorias) => {
         setCategorias([...categorias]);
       });
@@ -172,11 +174,12 @@ function CadastroCategoria() {
             ))}
           </Body>
         </Table>
-        <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-          {/* <ArrowLeft color="#FFFFFF" size={24} /> */}
+        {/* <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
+          <ArrowLeft color="#FFFFFF" size={24} />
           <span style={{ marginLeft: '4px' }}>.</span>
-        </Link>
+        </Link> */}
       </Container>
+      <ButtonArea> </ButtonArea>
     </PageDefault>
   );
 }

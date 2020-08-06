@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import { VideoCardContainer } from './styles';
+import { VideoCardContainer, VideoCardBanner } from './styles';
 // importar 'useHistory' para redirecionar ao novo componente, através do link
 // importar 'watch.json' para atribuir ID do vídeo selecionado
 import json from '../../../../data/watch.json';
@@ -34,7 +34,13 @@ function VideoCard({ videoTitle, videoURL, categoryColor }) {
       // target="_blank"
       style={{ borderColor: categoryColor || 'red' }}
       title={videoTitle}
-    />
+    >
+      <VideoCardBanner style={{ backgroundColor: categoryColor || 'red' }}>
+
+        {videoTitle}
+
+      </VideoCardBanner>
+    </VideoCardContainer>
   );
 }
 

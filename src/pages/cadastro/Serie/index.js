@@ -138,8 +138,9 @@ function CadastroSerie() {
           </Body>
         </Table>
 
-        <Link to="/">.</Link>
+        {/* <Link to="/">.</Link> */}
       </Container>
+      <ButtonArea> </ButtonArea>
     </PageDefault>
   );
 }

@@ -12,8 +12,7 @@ import CadastroCategoria from './pages/cadastro/Categoria';
 import EditarCategoria from './pages/editar/Categoria';
 import EditarSerie from './pages/editar/Serie';
 import Watch from './pages/watch';
-
-const Pagina404 = () => (<div>Página 404</div>);
+import Pagina404 from './pages/404';
 
 ReactDOM.render(
   <BrowserRouter>

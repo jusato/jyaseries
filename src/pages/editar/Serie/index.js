@@ -49,6 +49,7 @@ function EditarSerie(route) {
         setCategoriaNome(serie.categoriaNome || '');
         setCategoriaId(serie.categoriaId || 0);
       });
+    // eslint-disable-next-line
   }, []);
 
   const { clearForm } = useForm();
