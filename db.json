@@ -126,11 +126,11 @@
       "url": "https://www.youtube.com/watch?v=HmRPq41j3wI"
     },
     {
-      "id": 7,
-      "categoriaId": 5,
+      "titulo": "Black Mirror",
+      "url": "https://www.youtube.com/watch?v=-qIlCo9yqpY",
       "categoriaNome": "Esperando Próxima Temporada",
-      "titulo": "Young Sheldon",
-      "url": "https://www.youtube.com/watch?v=6YMbyIQpO1w"
+      "categoriaId": 5,
+      "id": 7
     },
     {
       "id": 8,
@@ -168,8 +168,8 @@
       "id": 17
     },
     {
-      "titulo": "Meu amorzinho",
-      "url": "https://youtu.be/zgDST_t7nGA",
+      "titulo": "Jyaseries",
+      "url": "https://youtu.be/VQmXOvKOgt4",
       "categoriaNome": "Assistindo",
       "categoriaId": 1,
       "id": 19
@@ -183,7 +183,7 @@
     },
     {
       "titulo": "Terrace House: Aloha State",
-      "url": "https://www.youtube.com/watch?v=ZcOBKyu460g",
+      "url": "https://www.youtube.com/watch?v=DgewouHwjW4",
       "categoriaNome": "Assistindo",
       "categoriaId": 1,
       "id": 21
@@ -201,13 +201,6 @@
       "categoriaNome": "Melhores",
       "categoriaId": 9,
       "id": 23
-    },
-    {
-      "titulo": "De Férias com o Ex (Temporada 6)",
-      "url": "https://www.youtube.com/watch?v=n_fGblHJUTE",
-      "categoriaNome": "Assistindo com Bi",
-      "categoriaId": 2,
-      "id": 24
     },
     {
       "titulo": "The Mentalist",
@@ -232,10 +225,24 @@
     },
     {
       "titulo": "Vis a Vis",
-      "url": "https://www.youtube.com/watch?v=zK5i7z2Pn-0",
+      "url": "https://www.youtube.com/watch?v=UeMpouUHlnM",
       "categoriaNome": "Assistindo",
       "categoriaId": 1,
       "id": 28
+    },
+    {
+      "titulo": "The Rain",
+      "url": "https://www.youtube.com/watch?v=3pQ524SLPNM",
+      "categoriaNome": "Assistindo com Bi",
+      "categoriaId": 2,
+      "id": 29
+    },
+    {
+      "titulo": "La Casa De Papel",
+      "url": "https://www.youtube.com/watch?v=TFJwUwnShnA",
+      "categoriaNome": "Español",
+      "categoriaId": 7,
+      "id": 30
     }
   ]
 }
