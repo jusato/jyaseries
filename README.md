@@ -1,4 +1,14 @@
+# Jyaseries
+This project was developed during the #ImersãoReactAlura.
+
+It is a collection of YouTube videos chosen by the user.
+- The user can add, edit and remove videos, as well as the categories in which the videos are found.
+- There is a native display of videos, without redirection to the YouTube website.
+- It is responsive. The project has been tuned to suit mobile devices as well to ensure a good user experience.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The final result can be found here: [Jyaseries](https://jyaseries.vercel.app/)
 
 ## Available Scripts
 
